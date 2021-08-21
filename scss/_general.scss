@@ -1,0 +1,27 @@
+html{
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+	box-sizing: inherit;
+}
+body{
+	background: #333 url(../img/bg.jpg);
+	background-size: 108%;
+	background-position: -1% 18%;
+	background-attachment: fixed;
+	background-blend-mode: hard-light;
+}
+a{
+	text-decoration: none;
+}
+ul{
+    padding: 0;
+	list-style: none;
+}
+.container{
+	width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+}

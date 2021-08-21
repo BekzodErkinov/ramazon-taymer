@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Courgette&display=swap");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background: #333 url(../img/bg.jpg);
+  background-size: 108%;
+  background-position: -1% 18%;
+  background-attachment: fixed;
+  background-blend-mode: hard-light;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.wrapper {
+  max-width: 90vw;
+  min-height: 80vh;
+  margin: 40px auto;
+  background: url(../img/bg.jpg);
+  background-size: 108%;
+  background-position: -1% 18%;
+  background-attachment: fixed;
+  -webkit-box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5), 0 0 0 100px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5), 0 0 0 100px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .main-nav {
+  width: 100%;
+}
+
+.wrapper .main-nav .nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.wrapper .main-nav .nav-list__item {
+  padding: 20px;
+  letter-spacing: 0.8px;
+}
+
+.wrapper .main-nav .nav-list__item a {
+  color: #333;
+  padding: 20px 40px;
+  font-size: 20px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.wrapper .main-nav .nav-list__item a:hover {
+  background: rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+
+.wrapper .txt-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper .txt-wrap h2 {
+  font-family: 'Allura', cursive;
+  color: #333;
+  font-size: 8em;
+  text-align: center;
+  margin: 0;
+}
+
+.wrapper .txt-wrap h2 sub {
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 6px;
+}
+
+.wrapper .txt-wrap .txt-message {
+  color: #333;
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin: 10px 0 40px;
+}
+
+.wrapper .txt-wrap .countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Courgette', cursive;
+}
+
+.wrapper .txt-wrap .countdown div {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  background: #333;
+  margin: 0 15px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.wrapper .txt-wrap .countdown div:before {
+  content: '';
+  font-family: 'Courgette', cursive;
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  width: 100%;
+  height: 35px;
+  color: #333;
+  background: #ff0;
+  font-size: 0.35em;
+  line-height: 35px;
+  font-weight: 300;
+}
+
+.wrapper .txt-wrap .countdown #day:before {
+  content: 'Kun';
+}
+
+.wrapper .txt-wrap .countdown #hour:before {
+  content: 'Soat';
+}
+
+.wrapper .txt-wrap .countdown #minute:before {
+  content: 'Daqiqa';
+}
+
+.wrapper .txt-wrap .countdown #second:before {
+  content: 'Soniya';
+}
+/*# sourceMappingURL=main.css.map */
